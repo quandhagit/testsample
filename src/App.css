@@ -1,0 +1,20 @@
+.App {
+  display: flex;
+}
+
+html,
+body {
+  font-size: 16px;
+  color: black;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 480px) {
+  .App {
+    flex-direction: column;
+    overflow-y: auto;
+  }
+  html {
+    overflow: auto;
+  }
+}

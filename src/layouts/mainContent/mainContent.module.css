@@ -1,0 +1,26 @@
+.main_content {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.main_content_body {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 7% 30px;
+}
+
+.logo_container {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+  .main_content {
+    height: auto;
+  }
+}

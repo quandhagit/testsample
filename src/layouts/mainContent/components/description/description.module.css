@@ -1,0 +1,18 @@
+.description{
+  display: flex;
+  flex-direction: column;
+  padding: 38px 18%;
+  justify-content: center;
+  align-items: center;
+  background-color: #EFEFEF;
+  margin-top: 30px;
+}
+
+.description_title {
+  font-weight: 700;
+}
+
+.description_content {
+  margin-top: 18px;
+  text-align: center;
+}
